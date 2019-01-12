@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--表示 Environment.getExternalStorageDirectory() 目录下的 ImageSelector 文件夹下的文件-->
+    <external-path
+        name="images"
+        path="ImageSelector/" />
+
+    <!--
+        节点有：
+             <root-path>      设备根目录 new File("/")
+             <files-path>     context.getFileDidr()
+             <cache-path>     context.getCacheDir()
+             <external-path>  Environment.getExternalStorageDirectory()
+             <external-cache-path>  getExternalCacheDirs()
+             <external-files-path>  context.getExternalFilesDirs()
+    -->
+
+
+</paths>
