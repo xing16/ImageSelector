@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="imageselector_overlay_unselect">#00000000</color>
-    <color name="imageselector_overlay_selected">#90000000</color>
-    <color name="imageslector_white_f5">#f5f5f5</color>
+    <color name="is_overlay_unselect">#00000000</color>
+    <color name="is_overlay_selected">#90000000</color>
+    <color name="is_white_f5">#f5f5f5</color>
+    <color name="is_white_f5_pressed">#ddd</color>
 </resources>

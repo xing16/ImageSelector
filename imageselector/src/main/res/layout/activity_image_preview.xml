@@ -17,7 +17,7 @@
         android:id="@+id/rl_preview_title_layout"
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:background="@color/imageslector_white_f5">
+        android:background="@color/is_white_f5">
 
         <ImageView
             android:id="@+id/iv_preview_back"

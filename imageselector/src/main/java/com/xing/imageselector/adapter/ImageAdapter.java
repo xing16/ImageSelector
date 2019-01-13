@@ -171,10 +171,10 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
     public void setItemSelect(ImageViewHolder viewHolder, boolean isSelected) {
         if (isSelected) {
             viewHolder.checkImgView.setImageResource(R.drawable.is_cb_white_checked);
-            viewHolder.imageView.setColorFilter(context.getResources().getColor(R.color.imageselector_overlay_selected), PorterDuff.Mode.SRC_ATOP);
+            viewHolder.imageView.setColorFilter(context.getResources().getColor(R.color.is_overlay_selected), PorterDuff.Mode.SRC_ATOP);
         } else {
             viewHolder.checkImgView.setImageResource(R.drawable.is_cb_white_uncheck);
-            viewHolder.imageView.setColorFilter(context.getResources().getColor(R.color.imageselector_overlay_unselect), PorterDuff.Mode.SRC_ATOP);
+            viewHolder.imageView.setColorFilter(context.getResources().getColor(R.color.is_overlay_unselect), PorterDuff.Mode.SRC_ATOP);
         }
     }
 

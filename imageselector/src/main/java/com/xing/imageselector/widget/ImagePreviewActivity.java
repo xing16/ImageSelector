@@ -188,18 +188,20 @@ public class ImagePreviewActivity extends FragmentActivity implements View.OnCli
             @Override
             public void onImageThumbnailClick(View itemView, Image image, int position) {
                 int inFolderPosition = imageList.indexOf(image);
-                Log.e(TAG, "onImageThumbnailClick: " + inFolderPosition);
-                if (inFolderPosition == curPosition) {
-                    return;
+                if (inFolderPosition != -1) {
+                    Log.e(TAG, "onImageThumbnailClick: " + inFolderPosition);
+                    if (inFolderPosition == curPosition) {
+                        return;
+                    }
+                    // 设置底部缩略图选中的背景颜色
+                    imageThumbnailAdapter.setImagesThumbnail(imageSelectedList, position);
+                    curPosition = inFolderPosition;
+                    // 预览图显示缩略图对应的图片
+                    previewLayoutManager.scrollToPosition(curPosition);
+                    countTextView.setText((curPosition + 1) + " / " + imageList.size());
+                    // 切换底部缩略图时，更新 checkbox 状态，是否设置为已选
+                    setCheckBoxState();
                 }
-                // 设置底部缩略图选中的背景颜色
-                imageThumbnailAdapter.setImagesThumbnail(imageSelectedList, position);
-                curPosition = inFolderPosition;
-                // 预览图显示缩略图对应的图片
-                previewLayoutManager.scrollToPosition(curPosition);
-                countTextView.setText((curPosition + 1) + " / " + imageList.size());
-                // 切换底部缩略图时，更新 checkbox 状态，是否设置为已选
-                setCheckBoxState();
             }
         });
         // 选择 或 取消

@@ -29,6 +29,7 @@ import com.xing.imageselector.entity.Image;
 import com.xing.imageselector.interfaces.OnImageLoadCallback;
 import com.xing.imageselector.provider.ImageLoadTask;
 import com.xing.imageselector.utils.Constants;
+import com.xing.imageselector.utils.PackageUtil;
 import com.xing.imageselector.utils.StatusBarUtil;
 import com.yalantis.ucrop.UCrop;
 
@@ -314,7 +315,8 @@ public class ImageSelectorActivity extends FragmentActivity implements
         // Android 7.0 以上，使用 fileprovider 方式共享文件
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             // 第二个参数 authority 需要和 AndroidManifest.xml 中 android:authorities 属性值保持一致
-            fileUri = FileProvider.getUriForFile(this, "com.xing.imageselector.fileprovider", imageFile);
+            String authority = PackageUtil.getPackageName(this) + ".fileprovider";
+            fileUri = FileProvider.getUriForFile(this, authority, imageFile);
         } else {
             // 文件地址转换成 uri
             fileUri = Uri.fromFile(imageFile);

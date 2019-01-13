@@ -16,7 +16,7 @@
             android:id="@+id/btn_single"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/selector_button_bg"
             android:onClick="click"
             android:text="单选"
             android:textColor="#fff" />
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/selector_button_bg"
             android:onClick="click"
             android:text="单选裁剪"
             android:textColor="#fff" />
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/selector_button_bg"
             android:onClick="click"
             android:text="多选"
             android:textColor="#fff" />

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 
 import com.xing.imageselector.ImageSelector;
@@ -18,6 +19,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "MainActivity";
     private static final int REQUEST_SINGLE = 11;
     private static final int REQUEST_SINGLE_CROP = 12;
     private static final int REQUEST_MULTI = 13;
@@ -82,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
             switch (requestCode) {
                 case REQUEST_SINGLE:
                     String path = ImageSelector.getSingleSelectPath(data);
+                    Log.e(TAG, "onActivityResult: " + path );
                     if (!TextUtils.isEmpty(path)) {
                         list.clear();
                         list.add(path);
