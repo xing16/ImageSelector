@@ -8,6 +8,7 @@ ImageSelector Material Design 可配置化沉浸式状态栏图片选择器，�
 <img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/crop.png" height="30%" width="30%">
 <img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/multi-choose.png" height="30%" width="30%">
 <img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/preview.png" height="30%" width="30%">
+<br/>
 <img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/result.gif" height="30%" width="30%">
 
 
