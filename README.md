@@ -64,7 +64,7 @@ ImageSelector.open(this, imageConfig1, REQUEST_MULTI);
 
 **单选裁剪： String cpath = ImageSelector.getCropPath(intent);**
 
-**多选： ArrayList&ltString> selectImgList = ImageSelector.getMultiSelectPath(data);**
+**多选： ArrayList`<`String`>` selectImgList = ImageSelector.getMultiSelectPath(data);**
 
 ```
 @Override
