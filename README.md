@@ -3,12 +3,12 @@ ImageSelector Material Design 可配置化沉浸式状态栏图片选择器，�
 
 效果预览图：
 [点击下载APK进行体验](https://raw.githubusercontent.com/wj576038874/PhotoSelectorDemo/master/apk/PhotoSelector.apk)
-<img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png" height="40%" width="40%">
-![folder](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png)
-![crop](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png) 
-![](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png)
-![](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png) 
-![](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png)
+<img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png" height="30%" width="30%">
+<img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/crop.png" height="30%" width="30%">
+<img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/multi-choose.png" height="30%" width="30%">
+<img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/preview.png" height="30%" width="30%">
+<img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/result.gif" height="30%" width="30%">
+
 
 
 
