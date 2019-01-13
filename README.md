@@ -5,10 +5,10 @@ ImageSelector Material Design 可配置化沉浸式状态栏图片选择器，�
 [点击下载APK进行体验](https://raw.githubusercontent.com/wj576038874/PhotoSelectorDemo/master/apk/PhotoSelector.apk)
 
 ![folder](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png)
-![](https://github.com/wj576038874/ImageSelector/blob/master/images/folder.jpg) 
-![](https://github.com/wj576038874/ImageSelector/blob/master/images/preview.jpg)
-![](https://github.com/wj576038874/ImageSelector/blob/master/images/preview_list.jpg) 
-![](https://github.com/wj576038874/ImageSelector/blob/master/images/clip.jpg)
+![crop](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png) 
+![](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png)
+![](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png) 
+![](https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png)
 
 
 
