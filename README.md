@@ -60,11 +60,11 @@ ImageSelector.open(this, imageConfig1, REQUEST_MULTI);
 
 #### 2. 选择图片结果回调
 
-**单选： ImageSelector.getSingleSelectPath(intent)**
+**单选： String path = ImageSelector.getSingleSelectPath(intent)**
 
 **单选裁剪： String cpath = ImageSelector.getCropPath(intent);**
 
-**多选： ArrayList<String> selectImgList = ImageSelector.getMultiSelectPath(data);**
+**多选： ArrayList&ltString> selectImgList = ImageSelector.getMultiSelectPath(data);**
 
 ```
 @Override
