@@ -2,7 +2,8 @@
 ImageSelector Material Design 可配置化沉浸式状态栏图片选择器，支持单选，多选，预览，裁剪，自定义图片加载引擎。
 
 效果预览图：
-[点击下载APK进行体验](https://raw.githubusercontent.com/wj576038874/PhotoSelectorDemo/master/apk/PhotoSelector.apk)
+[点击下载APK进行体验](https://github.com/xing16/ImageSelector/raw/master/screenshot/app-release.apk)
+<br/>
 <img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/folder.png" height="30%" width="30%">
 <img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/crop.png" height="30%" width="30%">
 <img src="https://github.com/xing16/ImageSelector/raw/master/screenshot/multi-choose.png" height="30%" width="30%">
